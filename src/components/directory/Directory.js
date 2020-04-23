@@ -2,7 +2,7 @@ import React from "react";
 import "./directory.styles.scss";
 import MenuItem from "../MenuItem";
 
-import { sections } from "../../api/sections";
+import { sections } from "../../api/Sections";
 
 const Directory = () => {
   return (

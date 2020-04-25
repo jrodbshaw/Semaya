@@ -28,9 +28,9 @@ function App() {
             },
           });
         });
-      } else {
-        setCurrentUser(null);
       }
+
+      setCurrentUser(null);
     });
     return () => unsubscribe();
   }, []);

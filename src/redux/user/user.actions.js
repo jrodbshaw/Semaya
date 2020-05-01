@@ -1,6 +1,6 @@
 // * payload here will be a user, so payload: user
-
-export const setCurrentUser = (payload) => ({
-  type: "SET_CURRENT_USER",
-  payload,
+import { UserActionTypes } from "./user.types";
+export const setCurrentUser = (user) => ({
+  type: UserActionTypes.SET_CURRENT_USER,
+  payload: user,
 });
